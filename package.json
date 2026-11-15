@@ -1,0 +1,10 @@
+{
+  "name": "merenciano-calhas-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page responsiva da Merenciano Calhas",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}
