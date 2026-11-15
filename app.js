@@ -94,7 +94,8 @@
   document.querySelectorAll(".js-whatsapp[data-message]").forEach((link) => {
     const message = link.dataset.message;
     if (!message) return;
-    link.href = `${WHATSAPP_URL}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = link.dataset.whatsappUrl || WHATSAPP_URL;
+    link.href = `${whatsappUrl}?text=${encodeURIComponent(message)}`;
   });
 
   if (FACEBOOK_URL) {
