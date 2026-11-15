@@ -4,7 +4,7 @@
   "private": true,
   "description": "Landing page responsiva da Merenciano Calhas",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node preview-server.js",
+    "dev": "node preview-server.js"
   }
 }
