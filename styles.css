@@ -290,8 +290,7 @@ a.social-link:hover { transform: translateY(-2px); background: var(--blue); }
   .about .eyebrow--light { color: var(--blue); }
   .about__copy-inner > p:not(.eyebrow) { color: var(--muted); font-size: .93rem; }
   .about__visual { min-height: 385px; background-position: 62% center; }
-  .about__visual::before { background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, .62) 36%, rgba(255, 255, 255, 0) 100%); }
-  .about__visual::before { inset: 0 0 auto; width: auto; height: 96px; background: linear-gradient(180deg, #052e5c 0%, rgba(5, 46, 92, .55) 36%, rgba(5, 46, 92, 0) 100%); }
+  .about__visual::before { inset: 0 0 auto; width: auto; height: 96px; background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, .62) 36%, rgba(255, 255, 255, 0) 100%); }
   .about__points { right: 18px; bottom: 18px; left: 18px; gap: 8px; }
   .about__points > div { min-height: 67px; gap: 8px; padding: 8px; }
   .about__point-icon { width: 34px; height: 34px; }

@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const WHATSAPP_URL = "https://wa.me/551299646738";
+  const WHATSAPP_URL = "https://wa.me/5512996466738";
   // Add the official Facebook page URL here when it is available.
   const FACEBOOK_URL = "";
 
